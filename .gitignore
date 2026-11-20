@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local AI tooling instructions (third-party, not part of the website)
+/SKILL.md
+/SKILL (*).md
+
+# unused full-size source copy of the logo (web copy is vex-tech-logo-web.png)
+/public/images/vex-tech-logo.png
+
+# local audit and QA outputs
+/audit/
+/shots/
+/.taste-skill/
