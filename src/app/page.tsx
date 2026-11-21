@@ -1,4 +1,5 @@
 import { ConsultCta } from "@/components/site/ConsultCta";
+import { AutomationComparison } from "@/components/site/AutomationComparison";
 import { Footer } from "@/components/site/Footer";
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
@@ -17,6 +18,7 @@ export default function Home() {
       <Header />
       <main id="main" tabIndex={-1} className="flex-1 outline-none">
         <Hero />
+        <AutomationComparison />
         <Solutions />
         <Method />
         <ConsultCta />
