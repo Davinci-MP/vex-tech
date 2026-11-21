@@ -4,6 +4,7 @@ import { Footer } from "@/components/site/Footer";
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
 import { Method } from "@/components/site/Method";
+import { ProductShowcase } from "@/components/site/product-showcase/ProductShowcase";
 import { Solutions } from "@/components/site/Solutions";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <AutomationComparison />
         <Solutions />
+        <ProductShowcase />
         <Method />
         <ConsultCta />
       </main>

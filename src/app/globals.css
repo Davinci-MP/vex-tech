@@ -79,9 +79,25 @@ body {
   animation: menu-in 200ms var(--ease-out) both;
 }
 
+@keyframes panel-swap {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.panel-enter {
+  animation: panel-swap 380ms var(--ease-out) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .enter,
-  .menu-enter {
+  .menu-enter,
+  .panel-enter {
     animation: none;
   }
 }
